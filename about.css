@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "Arial";
+  src: url("../fonts/Arial.ttf");
+}
+
+@font-face {
+  font-family: "Arial-Black";
+  src: url("../fonts/Arial-Black");
+}
+
+@font-face {
+  font-family: "Arial-Bold";
+  src: url("../fonts/Arial-Bold.ttf");
+}
+  
+  * {
+    background-color: black;
+  }
+  .navbar, nav{
+    display: flex;
+    max-width: 100%;
+
+  }
+  header{
+    padding: 20px 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+
+  }
+  .navbar{
+    max-width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  nav{
+    width: 70%;
+    max-width: 600px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  button {
+    background-color: #DFFF00;
+    color: black;
+    font-size: 20px;
+    font-family: "Arial-Bold";
+    border-radius: 50px;
+    padding: 10px 50px;
+    outline:none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color:white;
+  }
+  
+  button:active {
+    cursor: pointer;
+    background-color: #DFFF00;
+  }
+  p, a {
+    font-size: 20px;
+    font-family: "Arial";
+    color: white;
+    text-align: left;
+  }   
+  
+  a {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #DFFF00;
+    text-decoration: none;
+  }
+
+  main{
+    margin-top: 200px;
+  }
+
+  .centrado{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 64px;
+    font-family: "Arial-Black";
+    margin: 0px 0px;
+  }
+
+.texth4{ 
+    font-family: "Arial-Black";
+    color: white;
+    font-size: 24px;
+    font-family: "Arial-Black";
+    text-align: left;
+    width: 20%;
+    max-width: 400px;
+  }
+
+  h6 {
+    max-width: 70%;
+    margin: 44px auto;
+    color: white;
+    font-size: 20px;
+    font-family: "Arial";
+    text-align: center;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: "Arial";
+    color: white;
+    text-align: left;
+    margin: 0px 0px;
+  }   
+  
+  hr {
+    color: white;
+    align-items: center;
+    margin: 44px 172px;
+}
+
+footer{
+    text-align: center;
+    font-family: "Arial";
+    color: white;
+    font-size: 16px;
+    margin: 44px 172px;
+}
+
+
+ .skills-verde {
+    max-width: 70%;
+    margin: 44px auto;
+    color: #DFFF00;
+    font-size: 20px;
+    font-family: "Arial";
+    text-align: center;
+ }
+
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 414px){
+  .desktop{
+    display: none;
+  }
+
+.mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.mobile h1{
+font-size: 36px;
+width: 200px;
+color: #DFFF00;
+text-align: center;
+justify-content: left;
+font-family: "Arial-Black";
+margin: 16px 16px;
+}
+}
